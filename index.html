@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated Website | Jethro</title>
-    <link rel="stylesheet" href="/Website_With_Animated_Image/images/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="hero">
         <nav>
             <div class="logo">
-                <img src="/Website_With_Animated_Image/images/logo.png" alt="">
+                <img src="logo.png" alt="">
             </div>
             <button type="button">List Products</button>
-            <img src="/Website_With_Animated_Image/images/menu.png" class="menu-icon">
+            <img src="menu.png" class="menu-icon">
         </nav>
 
         <div class="row">
@@ -33,7 +33,7 @@
 
             </div>
             <div class="col-2">
-                <img src="/Website_With_Animated_Image/images/pic1.png" id="banner">
+                <img src="pic1.png" id="banner">
             </div>
         </div>
     </div>
@@ -43,19 +43,19 @@
         var banner = document.getElementById("banner");
         
         btn[0].onclick = function(){
-            banner.src = "/Website_With_Animated_Image/images/pic1.png";
+            banner.src = "pic1.png";
             animation();
             this.classList.add("active");
         }
 
         btn[1].onclick = function(){
-            banner.src = "/Website_With_Animated_Image/images/pic2.png";
+            banner.src = "pic2.png";
             animation();
             this.classList.add("active");
         }
 
         btn[2].onclick = function(){
-            banner.src = "/Website_With_Animated_Image/images/pic3.png";
+            banner.src = "pic3.png";
             animation();
             this.classList.add("active");
         }
